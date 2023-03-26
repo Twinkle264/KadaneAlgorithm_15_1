@@ -3,9 +3,9 @@
 using namespace std;
 
 int main() {
-    int a[] = {-2,1,-3,4,-1,2,1,-5,4};
+    int a[] = {2,1,-3,4,-1,2,1,-5,4};
 
-    int maxSum = a[0], maxSumLast = a[0];
+    int maxSum = 0, maxSumLast = 0;
     int s = 0, e = 0, point = 0;
     bool allNumNegative = true;
     int maxNegative = a[0];
